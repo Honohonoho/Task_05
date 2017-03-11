@@ -1,0 +1,172 @@
+body,p{
+       margin: 0;
+}
+body{
+       background-color: Gainsboro;
+}
+.paragraph{
+    margin: 20px 0px 20px 20px;
+    padding: 20px;
+    background-color: White;
+    border-top: 1px solid Lavender;
+    border-right: 3px solid Gray;
+    border-bottom: 3px solid Gray;
+    border-left: 1px solid Lavender;
+}
+.side{
+    margin: 20px 20px 20px 0px;
+    padding: 20px;
+    background-color: White;
+    border-top: 1px solid Lavender;
+    border-right: 3px solid Gray;
+    border-bottom: 3px solid Gray;
+    border-left: 1px solid Lavender;
+}
+.header{
+       height: 90px;
+       width: 100%;
+       background-color: Black;
+}
+.menu{
+       float: right;
+}
+ul.menu{
+       position: relative;
+       right: 20px;
+       margin: 0;
+       padding: 0;
+       line-height: 90px;
+}
+ul.menu li{
+       float: left;
+       margin-left: 20px;
+       text-align: center;
+}
+ul.menu li a{
+       color: White;
+       text-decoration: none;
+}
+#link{
+       color:yellow;
+}
+.unorderlist{
+       list-style: none;
+}
+.piclist{
+       margin-left: 60px;
+}
+.pic{
+       border: 1px solid Black;
+       width: 150px;
+       text-align: center;
+       margin-bottom: 15px;
+       float: left;
+}
+.pic p{
+       margin: 10px 0px 10px 0px;
+}
+.pic img{
+       vertical-align: middle;
+       margin: 0px 10px 10px 10px;
+       width: 130px;
+}
+.orderlist{
+       font-weight: bold;
+}
+table{
+       width:100%;
+       border-collapse: collapse;
+       border: 1px solid Gray;
+}
+thead{
+       vertical-align: middle;
+}
+table th{
+       background-color: Black;
+       color: White;
+       border: 1px solid Gray;
+}
+table td{
+       border: 1px solid Gray;
+}
+table tr.total{
+       background-color: Gray;
+       font-weight: bold;
+}
+.sidetitle{
+       font-size: 18px;
+       border-left: 3px solid Gray;
+       padding: 10px;
+}
+.form{
+       text-align: center;
+       width: 100%;
+}
+.first{
+       float: left;
+       width: 40%;
+       text-align: right;
+}
+.second{
+       float: left;
+       width: 60%;
+       text-align: left;
+}
+.submit{
+       width:100%;
+       background-color: Blue;
+       color: White;
+       padding: 10px;
+       border-radius: 10px;
+       border: none;
+}
+.forminput{
+       display: inline-block;
+}
+.formelement{
+       position: relative;
+       display:  block;;
+       margin-bottom: 15px;
+}
+.formelement:before{
+    display: table;
+    content: " ";
+}
+.formelement:after{
+    display: table;
+    content: " ";
+     clear:both;
+}
+.inputinfo{
+       color: #999;
+}
+footer {
+    color: White;
+    height: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: Black;
+    text-align: center;
+}
+.content{
+    margin: 0 auto;
+}
+.side{
+    width: 350px;
+    float: right;
+}
+.clear:after{
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.primary{
+    float: left;
+    width: 100%;
+    margin-left: -440px;
+}
+.paragraph{
+    margin-left: 460px;
+}
